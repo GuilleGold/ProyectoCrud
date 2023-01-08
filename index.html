@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,66 +8,87 @@
     <title>Proyecto Crud</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Proyecto nr2 : Desarrollo de Software CRUD</p>
+      </header>
     <table>
         <tr>
             <td>
                 <form autorcomplete="off" onsubmit="onFormSubmit()">
-                <div>
-                    <label for="productCode">
-                        Producto
-                    </label>
-                    <input type="text" name="productCode" id="productCode">
-                </div>
-                <div>
-                    <label for="product">
-                        Nombre del Producto
-                    </label>
-                    <input type="text" name="product" id="product">
-                </div>
-                <div>
-                    <label for="qty">
-                        Cantidad
-                    </label>
-                    <input type="number" name="qty" id="qty">
-                </div>
-                <div>
-                    <label for="perPrice">
-                        Precio
-                    </label>
-                    <input type="number" name="perPrice" id="perPrice">
-                </div>
-                <div class="form action--button">
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                </div>
+                    <div>
+                        <label for="productCode">
+                            Producto
+                        </label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">
+                            Nombre del Producto
+                        </label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">
+                            Cantidad
+                        </label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="perPrice">
+                            Precio
+                        </label>
+                        <input type="number" name="perPrice" id="perPrice">
+                    </div>
+                    <div class="form action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
                 </form>
-                <td>
-                    <table class="list" id="storeList">
+            <td>
+                <table class="list" id="storeList">
                     <thead>
                         <tr>
-                        <th>
-                            Codigo del Producto
-                        </th>
-                        <th>
-                            Nombre del Producto
-                        </th>
-                        <th>
-                            QTY
-                        </th>
-                        <th>
-                            Precio
-                        </th>
+                            <th>
+                                Codigo del Producto
+                            </th>
+                            <th>
+                                Nombre del Producto
+                            </th>
+                            <th>
+                                QTY
+                            </th>
+                            <th>
+                                Precio
+                            </th>
                         </tr>
                     </thead>
-                    <tbody>                       
+                    <tbody>
                     </tbody>
-                    </table>
-                </td>
+                </table>
+            </td>
             </td>
         </tr>
     </table>
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">
+          GuilleProyectos. &copy; T0d0S L0$ D3r3Ch0$ R3s3V@d0$ 2022
+        </p>
+        <div id="iconos">
+          <a href="#">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </footer>
     <script type="text/javascript" src="script.js">
     </script>
 </body>
+
 </html>
