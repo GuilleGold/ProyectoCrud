@@ -4,12 +4,18 @@ body{
     background-attachment:fixed ;
     background-size: cover;
 }
+header{
+    text-align: center;
+}
 footer {
     background: rgb(124, 154, 167);
     min-height: 100px;
+    width: 100%;
+    padding: 0px 0px;
   }
   footer p {
     color: black;
+    margin: 100px auto;
     text-align: center;
   }
 table{

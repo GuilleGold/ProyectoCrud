@@ -54,7 +54,7 @@ function updateRecord(formData){
 
 // Eliminar Data
 function onDelete(td){
-    if(confirm('Realmente deseas eliminar lo que escribiste?')){
+    if(confirm('Realmente deseas eliminar los cambios?')){
         row=td.parentElement.parentElement;
         document.getElementById('storeList').deleteRow(row.rowIndex);
         resetForm();
