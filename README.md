@@ -3,7 +3,30 @@
 
 Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar y Borrar) desarrollada en JavaScript. Está destinado a ser utilizado como una herramienta de presentación para mostrar las habilidades de desarrollo en JavaScript y la capacidad de crear aplicaciones web funcionales. El proyecto permite al usuario crear, leer, actualizar y borrar registros en una base de datos, proporcionando una interfaz fácil de usar y una experiencia de usuario intuitiva.
 
+## Soporte
 
+### Documentación
+Para obtener más información sobre cómo usar este proyecto, consulta la [documentación](https://github.com/guillegold/project/wiki).
+
+### Comunidades de apoyo
+Si necesitas ayuda o quieres discutir este proyecto con otros usuarios, únete a nuestra comunidad en [Discord](https://discord.gg/abc123).
+
+### Reportar errores
+Para informar de un error o solicitar una nueva característica, abra una [issue en GitHub](https://github.com//project/issues).
+
+### Contribuir
+Este proyecto es de código abierto y siempre estamos buscando contribuciones. Si deseas contribuir, por favor lee nuestra [guía para contribuir](https://github.com/username/project/blob/main/CONTRIBUTING.md)
+
+## FAQ
+
+### ¿Qué hace este proyecto?
+Este proyecto es una implementación de una aplicación CRUD (crear, leer, actualizar y eliminar) en javascript.
+
+### ¿Qué tecnologías se usaron en el desarrollo del proyecto?
+Este proyecto se desarrolló con JavaScript, HTML y CSS.
+
+### ¿Cómo puedo ejecutar el proyecto en mi computadora?
+Para ejecutar este proyecto en tu computadora, necesitarás tener Node.js instalado. Descarga el código fuente del proyecto desde GitHub y ejecuta el comando 'npm install' para instalar las dependencias necesarias. Luego, ejecuta el comando 'npm start' para iniciar el servidor.
 
 ## Author
 
