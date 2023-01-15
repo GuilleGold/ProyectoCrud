@@ -7,7 +7,6 @@ body{
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
 header{
     background-color: #f2f2f2;
 }
@@ -20,20 +19,13 @@ footer {
     background: #f2f2f2;
     text-align: center;
     padding: 1em;
-=======
-footer {
-    background: rgb(124, 154, 167);
-    min-height: 100px;
->>>>>>> parent of b4aa10e (aleacion commuit)
-  }
+}
 footer p {
     color: black;
-<<<<<<< HEAD
     margin: 0px;
-=======
->>>>>>> parent of b4aa10e (aleacion commuit)
     text-align: center;
   }
+
 table{
     width: 80%;
     margin: 40px auto;
@@ -112,7 +104,7 @@ form input[type="text"], form input[type="number"] {
                 border-radius: 5px;
                 border: 1px solid #ccc;
                 width: 100%;
-    display: inline-block;           
+    display: inline-block;        
 
                 }
 
