@@ -3,19 +3,26 @@ body{
     background-repeat: no-repeat;
     background-attachment:fixed ;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header{
+    background-color: #f2f2f2;
+}
+header h1{
+    margin: 0px;
+    padding: 1em;
     text-align: center;
 }
 footer {
-    background: rgb(124, 154, 167);
-    min-height: 100px;
-    width: 100%;
-    padding: 0px 0px;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 1em;
   }
-  footer p {
+footer p {
     color: black;
-    margin: 100px auto;
+    margin: 0px;
     text-align: center;
   }
 table{
@@ -31,7 +38,7 @@ td{
     border: 1px solid rgb(204,200,200);
 }
 tr:nth-child(even), table.list thread> tr{
-    background-color:rgb(204,200,200)
+    background-color:rgb(124,150,160);
 }
 input[type="text"],input[type="number"]{
     width: 91%;
@@ -63,8 +70,68 @@ button{
     border-radius: 30px;
     font-size: 1 rem;
     cursor:  pointer;
-    outline: none;
+    outline: none
 }
 button:hover{
     background: #4b66d8;
 }
+
+
+/* Estilos para el formulario */
+form {
+    /* display: grid; */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+form div {
+    /* text-align: center; */
+    margin-bottom: 10px;
+    padding: 1rem 1.2rem;
+        }
+
+form label {
+            /* display: block; */
+            font-size: 0.9em;
+            margin-bottom: 0.5rem;
+            /* padding: 5px 15px; */
+            }
+form input[type="text"], form input[type="number"] {
+    padding: 5PX 5px; ;
+                font-size: 18px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                width: 100%;
+    display: inline-block;           
+
+                }
+
+/* Estilos para los botones del formulario */
+.form.action--button {
+    text-align: center;
+    margin-top: 1em;
+    }
+
+.form.action--button input[type="submit"], .form.action--button input[type="reset"] {
+        padding: 0.5em 1em;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+th, td {
+        border: 3px solid #ccc;
+        padding: 1.5rem;
+        text-align: left;
+        }
+th {
+            background-color: #f2f2f2;
+            }
+

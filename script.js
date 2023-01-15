@@ -23,6 +23,7 @@ function readFormData(){
 }
 // Insertar la data
 function insertNewRecord(data){
+    localStorage.setItem("formData", JSON.stringify(data));
     var table=document.getElementById("storeList").getElementsByTagName('tbody')[0];
     var newRow = table.insertRow(table.length);
     var cell1=newRow.insertCell(0);
@@ -69,6 +70,31 @@ function resetForm(){
     selectedRow=null;
 }
 
+// Cargar la página
+document.body.onload = function() {
+    retrieveData();
+};
+
+// Recuperar datos del localStorage
+function retrieveData() {
+    var data = JSON.parse(localStorage.getItem("formData"));
+    if (data) {
+        document.getElementById("productCode").value = data.productCode;
+        document.getElementById("product").value = data.product;
+        document.getElementById("qty").value = data.qty;
+        document.getElementById("perPrice").value = data.perPrice;
+    }
+}
+
+// Actualizar datos en el localStorage
+function updateData(formData) {
+    localStorage.setItem("formData", JSON.stringify(formData));
+}
+
+// Borrar datos del localStorage
+function deleteData() {
+    localStorage.removeItem("formData");
+}
 
 
 
